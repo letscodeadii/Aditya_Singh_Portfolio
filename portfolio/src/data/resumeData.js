@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------
 // Portfolio Data
 // Single source of truth for the portfolio.
-// Updated from latest resume.
+// Synced with latest resume (Aditya_Singh.pdf)
 // ---------------------------------------------------------------------------
 
 export const profile = {
@@ -26,7 +26,7 @@ export const profile = {
   githubLabel: "github.com/letscodeadii",
 
   summary:
-    "Computer Science Engineer currently pursuing PGCP-AC at C-DAC Pune. Passionate Software Developer with expertise in Java, Spring Boot, Spring Cloud, React.js, ASP.NET Core, Angular, MySQL, and Microservices Architecture. Experienced in developing enterprise-grade applications, secure REST APIs, and scalable full-stack solutions. Strong foundation in Data Structures & Algorithms, OOP, DBMS, Operating Systems, REST APIs, System Design, and Agile Software Development.",
+    "Computer Science Engineer with a Bachelor's degree in Computer Science and Engineering, currently pursuing PGCP-AC at C-DAC Pune. Skilled in Java, Spring Boot, Spring Cloud, React.js, ASP.NET Core, Angular, and modern database technologies, with hands-on experience building full-stack and microservices-based applications — including a Smart College ERP on Spring Boot microservices and CartVerse, a full-stack e-commerce platform on ASP.NET Core and Angular. Strong foundation in Data Structures & Algorithms, OOP, DBMS, Operating Systems, REST APIs, System Design, and Agile Software Development. Passionate about building efficient, scalable solutions and continuously learning new technologies.",
 
   resumeFile: "/Aditya_Singh_Resume.pdf",
 };
@@ -46,7 +46,7 @@ export const stats = [
   },
   {
     label: "Technologies",
-    value: 25,
+    value: 28,
     suffix: "+",
   },
   {
@@ -61,7 +61,7 @@ export const stats = [
 export const skillGroups = [
   {
     title: "Languages",
-    comment: "// programming languages",
+    comment: "// programming & markup languages",
 
     items: [
       { name: "Java", level: 92 },
@@ -71,6 +71,7 @@ export const skillGroups = [
       { name: "SQL", level: 88 },
       { name: "C++", level: 82 },
       { name: "C", level: 78 },
+      { name: "HTML/CSS", level: 85 },
     ],
   },
 
@@ -82,25 +83,40 @@ export const skillGroups = [
       { name: "Spring Boot", level: 90 },
       { name: "Spring Cloud", level: 84 },
       { name: "Spring Security", level: 85 },
+      { name: "Spring MVC", level: 84 },
       { name: "Hibernate", level: 82 },
       { name: "React.js", level: 85 },
+      { name: "Redux", level: 78 },
       { name: "Angular", level: 82 },
       { name: "ASP.NET Core", level: 78 },
     ],
   },
 
   {
-    title: "Database & Tools",
-    comment: "// development tools",
+    title: "Databases",
+    comment: "// data storage",
 
     items: [
       { name: "MySQL", level: 88 },
       { name: "PostgreSQL", level: 80 },
       { name: "MongoDB", level: 74 },
-      { name: "Docker", level: 78 },
+      { name: "SQL Server", level: 78 },
+    ],
+  },
+
+  {
+    title: "Tools",
+    comment: "// development tools",
+
+    items: [
       { name: "Git & GitHub", level: 90 },
+      { name: "Docker", level: 78 },
       { name: "Postman", level: 86 },
       { name: "Maven", level: 84 },
+      { name: "VS Code", level: 90 },
+      { name: "Eclipse", level: 82 },
+      { name: "Visual Studio", level: 80 },
+      { name: "MySQL Workbench", level: 84 },
     ],
   },
 ];
@@ -132,18 +148,18 @@ export const experience = [
     title:
       "PGCP-AC — Post Graduate Certificate Programme in Advanced Computing",
 
-    org: "Centre for Development of Advanced Computing (C-DAC), Pune",
+    org: "Centre for Development of Advanced Computing (C-DAC), Pashan, Pune",
 
     start: "Feb 2026",
 
     end: "Present",
 
     points: [
-      "Pursuing an intensive full-time Advanced Computing program focused on enterprise software development.",
-      "Hands-on experience with Java, Spring Boot, Spring Cloud, .NET, React, Angular, Docker, MySQL, and Microservices.",
-      "Building scalable enterprise applications through practical projects and lab sessions.",
-      "Strengthening problem-solving skills with Data Structures & Algorithms, OOP, DBMS, and Operating Systems.",
-      "Participating in C-DAC's Common Campus Placement Programme (CCPP).",
+      "Pursuing an intensive 24-week full-time Advanced Computing program with comprehensive training in full-stack development.",
+      "Acquiring expertise in Core Java, J2EE, Spring Boot, Hibernate, .NET, React, MySQL, and Data Structures & Algorithms.",
+      "Developing proficiency in OOPs, Database Management Systems, Operating Systems, and Web Technologies.",
+      "Engaging in hands-on projects and lab sessions to build industry-ready software development skills.",
+      "Part of C-DAC's Common Campus Placement Programme (CCPP) for recruitment opportunities.",
     ],
   },
 ];
@@ -173,11 +189,11 @@ export const projects = [
     ],
 
     points: [
-      "Developed a full-stack microservices-based College ERP application for academic and administrative management.",
-      "Built secure REST APIs using Java 17, Spring Boot, Spring Security, JWT Authentication, and MySQL.",
+      "Developed a full-stack, microservices-based College ERP application for academic and administrative management.",
+      "Built secure RESTful APIs using Java 17, Spring Boot, Spring Cloud, Spring Security, JWT Authentication, and MySQL.",
       "Implemented Eureka Server and API Gateway for service discovery and request routing.",
-      "Developed React.js dashboards with role-based authentication for Admin, Faculty, Student, and Parent users.",
-      "Containerized all services using Docker Compose and managed builds using Maven.",
+      "Developed a React.js frontend with role-based authentication, attendance tracking, and marks management.",
+      "Containerized all services using Docker Compose and managed the project build with Maven.",
     ],
 
     accent: "cyan",
@@ -193,7 +209,7 @@ export const projects = [
     subtitle: "Enterprise E-Commerce Platform",
 
     description:
-      "Full-stack enterprise e-commerce application featuring secure authentication, online payments, clean architecture, and high-performance caching.",
+      "Full-stack enterprise e-commerce application featuring shopping cart, orders, secure authentication, online payments, clean architecture, and high-performance caching.",
 
     stack: [
       "Angular",
@@ -205,9 +221,9 @@ export const projects = [
     ],
 
     points: [
-      "Developed secure REST APIs using ASP.NET Core Web API and Entity Framework Core.",
-      "Implemented JWT Authentication and ASP.NET Identity for secure user management.",
-      "Applied Repository, Unit of Work, and Specification design patterns.",
+      "Developed a full-stack e-commerce application with shopping cart, order management, and secure payments.",
+      "Built secure RESTful APIs using ASP.NET Core Web API, Entity Framework Core, SQL Server, and JWT Authentication.",
+      "Applied Repository, Unit of Work, and Specification design patterns for clean architecture.",
       "Developed a responsive Angular frontend using RxJS, Reactive Forms, and Bootstrap 5.",
       "Integrated Stripe Payment Gateway and Azure Redis Cache for improved performance.",
     ],
@@ -228,7 +244,7 @@ export const certifications = [
   {
     title: "C++ Programming",
     issuer: "Udemy",
-    note: "Beginner to Advanced",
+    note: "Beginner to Advanced: Deep Dive in C++",
   },
 
   {
@@ -280,7 +296,7 @@ export const education = [
   },
 
   {
-    degree: "Secondary Education (Class X)",
+    degree: "Higher Secondary Education (Class X)",
 
     school: "D.A.V. Sr. Sec. Public School, Nigahi (CBSE)",
 
