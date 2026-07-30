@@ -1,134 +1,222 @@
 // ---------------------------------------------------------------------------
-// Single source of truth for all portfolio content, extracted from the
-// uploaded resume. Edit this file to update the site — no JSX changes needed.
+// Portfolio Data
+// Single source of truth for the portfolio.
+// Updated from latest resume.
 // ---------------------------------------------------------------------------
 
 export const profile = {
   name: "Aditya Singh",
   firstName: "Aditya",
-  role: "Full-Stack Developer",
-  tagline: "I build reliable software, end to end.",
+
+  role: "Software Developer | Full-Stack Java Developer",
+
+  tagline:
+    "Building scalable full-stack and microservices applications with Java, Spring Boot & React.",
+
   location: "Panchawati, Pashan, Pune, Maharashtra 411008",
+
   phone: "+91-6268073745",
+
   email: "letsmailadii@gmail.com",
+
   linkedin: "https://linkedin.com/in/adityaxsingh",
   linkedinLabel: "linkedin.com/in/adityaxsingh",
+
   github: "https://github.com/letscodeadii",
   githubLabel: "github.com/letscodeadii",
+
   summary:
-    "Computer Science Engineer with a Bachelor's degree in CSE (RGPV) and a current PGCP-AC candidate at C-DAC, Pune. Proficient in full-stack development with Java, Spring Boot, React, and MySQL. I build scalable applications with AI integration — including a 90% reduction in manual attendance tracking through face recognition. Strong foundation in DSA, OOPs, and DBMS with a habit of shipping clean, maintainable code.",
+    "Computer Science Engineer currently pursuing PGCP-AC at C-DAC Pune. Passionate Software Developer with expertise in Java, Spring Boot, Spring Cloud, React.js, ASP.NET Core, Angular, MySQL, and Microservices Architecture. Experienced in developing enterprise-grade applications, secure REST APIs, and scalable full-stack solutions. Strong foundation in Data Structures & Algorithms, OOP, DBMS, Operating Systems, REST APIs, System Design, and Agile Software Development.",
+
   resumeFile: "/Aditya_Singh_Resume.pdf",
 };
 
+// ---------------------------------------------------------------------------
+
 export const stats = [
-  { label: "Years Learning & Building", value: 4, suffix: "+" },
-  { label: "Projects Shipped", value: 6, suffix: "+" },
-  { label: "Core Technologies", value: 20, suffix: "+" },
-  { label: "Attendance Effort Cut", value: 90, suffix: "%" },
+  {
+    label: "Years Learning",
+    value: 5,
+    suffix: "+",
+  },
+  {
+    label: "Projects Built",
+    value: 8,
+    suffix: "+",
+  },
+  {
+    label: "Technologies",
+    value: 25,
+    suffix: "+",
+  },
+  {
+    label: "Certifications",
+    value: 3,
+    suffix: "",
+  },
 ];
+
+// ---------------------------------------------------------------------------
 
 export const skillGroups = [
   {
     title: "Languages",
-    comment: "// what I write in",
+    comment: "// programming languages",
+
     items: [
-      { name: "Java", level: 90 },
-      { name: "JavaScript", level: 85 },
-      { name: "TypeScript", level: 75 },
-      { name: "SQL", level: 85 },
-      { name: "C++", level: 80 },
-      { name: "C", level: 75 },
+      { name: "Java", level: 92 },
+      { name: "C#", level: 80 },
+      { name: "JavaScript", level: 86 },
+      { name: "TypeScript", level: 82 },
+      { name: "SQL", level: 88 },
+      { name: "C++", level: 82 },
+      { name: "C", level: 78 },
     ],
   },
+
   {
     title: "Frameworks",
-    comment: "// what I build with",
+    comment: "// backend & frontend",
+
     items: [
-      { name: "Spring Boot", level: 88 },
-      { name: "React.js", level: 82 },
-      { name: "Spring Security", level: 78 },
-      { name: "Hibernate", level: 80 },
-      { name: "Angular", level: 70 },
-      { name: ".NET", level: 65 },
+      { name: "Spring Boot", level: 90 },
+      { name: "Spring Cloud", level: 84 },
+      { name: "Spring Security", level: 85 },
+      { name: "Hibernate", level: 82 },
+      { name: "React.js", level: 85 },
+      { name: "Angular", level: 82 },
+      { name: "ASP.NET Core", level: 78 },
     ],
   },
+
   {
-    title: "Data & Tools",
-    comment: "// what I run on",
+    title: "Database & Tools",
+    comment: "// development tools",
+
     items: [
-      { name: "MySQL", level: 85 },
-      { name: "PostgreSQL", level: 75 },
-      { name: "MongoDB", level: 70 },
-      { name: "Docker", level: 70 },
-      { name: "Git / GitHub", level: 85 },
-      { name: "Postman", level: 80 },
+      { name: "MySQL", level: 88 },
+      { name: "PostgreSQL", level: 80 },
+      { name: "MongoDB", level: 74 },
+      { name: "Docker", level: 78 },
+      { name: "Git & GitHub", level: 90 },
+      { name: "Postman", level: 86 },
+      { name: "Maven", level: 84 },
     ],
   },
 ];
 
+// ---------------------------------------------------------------------------
+
 export const coreConcepts = [
-  "DSA",
-  "OOP",
+  "Data Structures & Algorithms",
+  "Object Oriented Programming",
   "DBMS",
   "Operating Systems",
-  "SDLC",
-  "Agile",
   "REST APIs",
+  "Spring Security",
+  "JWT Authentication",
   "Microservices",
+  "Spring Cloud",
   "System Design",
+  "Docker",
+  "Agile",
+  "SDLC",
 ];
+
+// ---------------------------------------------------------------------------
 
 export const experience = [
   {
     id: "cdac",
-    title: "PGCP-AC — Post Graduate Certificate Programme in Advanced Computing",
-    org: "Centre for Development of Advanced Computing (C-DAC), Pashan, Pune",
+
+    title:
+      "PGCP-AC — Post Graduate Certificate Programme in Advanced Computing",
+
+    org: "Centre for Development of Advanced Computing (C-DAC), Pune",
+
     start: "Feb 2026",
+
     end: "Present",
+
     points: [
-      "Pursuing an intensive 24-week full-time program in Advanced Computing with comprehensive training in full-stack development.",
-      "Acquiring expertise in Core Java, J2EE, Spring Boot, Hibernate, .NET, React, MySQL, and Data Structures & Algorithms.",
-      "Developing proficiency in OOPs, Database Management Systems, Operating Systems, and Web Technologies.",
-      "Engaging in hands-on projects and lab sessions to build industry-ready software development skills.",
-      "Part of C-DAC's Common Campus Placement Programme (CCPP) for recruitment opportunities.",
+      "Pursuing an intensive full-time Advanced Computing program focused on enterprise software development.",
+      "Hands-on experience with Java, Spring Boot, Spring Cloud, .NET, React, Angular, Docker, MySQL, and Microservices.",
+      "Building scalable enterprise applications through practical projects and lab sessions.",
+      "Strengthening problem-solving skills with Data Structures & Algorithms, OOP, DBMS, and Operating Systems.",
+      "Participating in C-DAC's Common Campus Placement Programme (CCPP).",
     ],
   },
 ];
 
+// ---------------------------------------------------------------------------
+
 export const projects = [
   {
-    id: "learniq",
+    id: "smart-college-erp",
+
     index: "01",
-    title: "LearnIQ",
-    subtitle: "Education Management System",
-    description:
-      "A full-stack education management system with role-based access for four user types, real-time notifications, and analytics dashboards.",
-    stack: ["Angular", "Spring Boot", "MySQL", "Hibernate"],
-    points: [
-      "Architected role-based access control for 4 user roles: Admin, Teacher, Student, Parent.",
-      "Optimized complex database queries with Hibernate, achieving 25% faster response time.",
-      "Designed and delivered 10+ modules, including real-time notifications, a parent portal, and analytics dashboards.",
-      "Followed MVC architecture and Agile methodology across 2-week sprint cycles.",
-    ],
-    accent: "violet",
-  },
-  {
-    id: "smart-erp",
-    index: "02",
+
     title: "Smart College ERP",
-    subtitle: "Face Recognition Attendance",
+
+    subtitle: "Microservices-Based College ERP",
+
     description:
-      "An AI-powered college ERP with a 3-tier architecture that automates attendance using computer vision, cutting manual effort by 90%.",
-    stack: ["Spring Boot", "React", "MySQL", "JavaCV"],
-    points: [
-      "Engineered a 3-tier architecture: React front end, Spring Boot services, MySQL storage.",
-      "Integrated JavaCV/OpenCV with the LBPH algorithm — a 90% reduction in manual attendance effort.",
-      "Implemented secure JWT authentication with role-based dashboards for 3 user roles.",
-      "Built RESTful APIs for attendance tracking, marks management, and automated reporting.",
+      "Enterprise-grade College ERP built using Java Spring Boot Microservices architecture with Spring Cloud, Eureka Server, API Gateway, React.js, and MySQL.",
+
+    stack: [
+      "Java 17",
+      "Spring Boot",
+      "Spring Cloud",
+      "React.js",
+      "MySQL",
+      "Docker",
     ],
+
+    points: [
+      "Developed a full-stack microservices-based College ERP application for academic and administrative management.",
+      "Built secure REST APIs using Java 17, Spring Boot, Spring Security, JWT Authentication, and MySQL.",
+      "Implemented Eureka Server and API Gateway for service discovery and request routing.",
+      "Developed React.js dashboards with role-based authentication for Admin, Faculty, Student, and Parent users.",
+      "Containerized all services using Docker Compose and managed builds using Maven.",
+    ],
+
     accent: "cyan",
   },
+
+  {
+    id: "cartverse",
+
+    index: "02",
+
+    title: "CartVerse",
+
+    subtitle: "Enterprise E-Commerce Platform",
+
+    description:
+      "Full-stack enterprise e-commerce application featuring secure authentication, online payments, clean architecture, and high-performance caching.",
+
+    stack: [
+      "Angular",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "SQL Server",
+      "Stripe",
+      "Azure Redis",
+    ],
+
+    points: [
+      "Developed secure REST APIs using ASP.NET Core Web API and Entity Framework Core.",
+      "Implemented JWT Authentication and ASP.NET Identity for secure user management.",
+      "Applied Repository, Unit of Work, and Specification design patterns.",
+      "Developed a responsive Angular frontend using RxJS, Reactive Forms, and Bootstrap 5.",
+      "Integrated Stripe Payment Gateway and Azure Redis Cache for improved performance.",
+    ],
+
+    accent: "violet",
+  },
 ];
+
+// ---------------------------------------------------------------------------
 
 export const certifications = [
   {
@@ -136,56 +224,112 @@ export const certifications = [
     issuer: "Udemy",
     note: "Beginner to Master",
   },
+
   {
     title: "C++ Programming",
     issuer: "Udemy",
-    note: "Beginner to Advanced — Deep Dive in C++",
+    note: "Beginner to Advanced",
   },
+
   {
-    title: "Full Stack Java Dev",
+    title: "Full Stack Java Development",
     issuer: "Udemy",
-    note: "Java, JSP, Spring Boot, JS, React",
+    note: "Java • JSP • Spring Boot • JavaScript • React",
   },
 ];
 
+// ---------------------------------------------------------------------------
+
 export const education = [
   {
-    degree: "B.Tech — Computer Science and Engineering",
+    degree:
+      "Post Graduate Certificate Programme in Advanced Computing (PGCP-AC)",
+
+    school: "Centre for Development of Advanced Computing (C-DAC ACTS), Pune",
+
+    start: "Feb 2026",
+
+    end: "Present",
+
+    score: "Pursuing",
+  },
+
+  {
+    degree: "Bachelor of Technology (B.Tech) — Computer Science & Engineering",
+
     school: "Technocrats Institute of Technology, Bhopal (RGPV)",
+
     start: "2022",
+
     end: "2025",
+
     score: "77.8%",
   },
+
   {
-    degree: "Diploma — Computer Science and Engineering",
-    school: "Sardar Vallabhbhai Patel Polytechnic College, Bhopal (RGPV)",
+    degree: "Diploma — Computer Science & Engineering",
+
+    school:
+      "Sardar Vallabhbhai Patel Polytechnic College, Bhopal (RGPV)",
+
     start: "2019",
+
     end: "2022",
+
     score: "81.1%",
   },
+
   {
-    degree: "Higher Secondary Education (Class X)",
+    degree: "Secondary Education (Class X)",
+
     school: "D.A.V. Sr. Sec. Public School, Nigahi (CBSE)",
+
     start: "2017",
+
     end: "2018",
+
     score: "62.8%",
   },
 ];
+
+// ---------------------------------------------------------------------------
 
 export const achievements = [
   {
     title: "Chess Champion",
     detail: "Winner of the School-level Chess Championship.",
   },
+
   {
     title: "Top Performer",
-    detail: "Selected among top diploma students for specialized workshops.",
+    detail: "Selected among top Diploma students for specialized workshops.",
   },
+
   {
     title: "Academic Excellence",
     detail: "Secured 81.1% in Diploma (RGPV).",
   },
 ];
+
+// ---------------------------------------------------------------------------
+
+export const highlights = [
+  "Java Backend Development",
+  "Spring Boot",
+  "Spring Cloud",
+  "Microservices",
+  "REST API Development",
+  "JWT Authentication",
+  "React.js",
+  "Angular",
+  "ASP.NET Core",
+  "Docker",
+  "Git & GitHub",
+  "SQL & NoSQL Databases",
+  "System Design",
+];
+
+// ---------------------------------------------------------------------------
 
 export const navLinks = [
   { label: "Home", href: "#home" },
@@ -193,12 +337,34 @@ export const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
+// ---------------------------------------------------------------------------
+
 export const socials = [
-  { label: "GitHub", href: profile.github, icon: "github" },
-  { label: "LinkedIn", href: profile.linkedin, icon: "linkedin" },
-  { label: "Email", href: `mailto:${profile.email}`, icon: "mail" },
-  { label: "Phone", href: `tel:${profile.phone}`, icon: "phone" },
+  {
+    label: "GitHub",
+    href: profile.github,
+    icon: "github",
+  },
+
+  {
+    label: "LinkedIn",
+    href: profile.linkedin,
+    icon: "linkedin",
+  },
+
+  {
+    label: "Email",
+    href: `mailto:${profile.email}`,
+    icon: "mail",
+  },
+
+  {
+    label: "Phone",
+    href: `tel:${profile.phone}`,
+    icon: "phone",
+  },
 ];
