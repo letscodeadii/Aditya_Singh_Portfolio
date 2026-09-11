@@ -40,10 +40,10 @@ export const stats = [
   {
     label: "Projects Built",
     value: 1,
-    suffix: "+",
+    suffix: "",
   },
   {
-    label: "Core Technologies",
+    label: "Technologies",
     value: 20,
     suffix: "+",
   },
@@ -72,9 +72,9 @@ export const skillGroups = [
       { name: "Java", level: 92 },
       { name: "JavaScript", level: 86 },
       { name: "TypeScript", level: 78 },
-      { name: "SQL", level: 88 },
       { name: "C++", level: 82 },
       { name: "C", level: 78 },
+      { name: "SQL", level: 88 },
       { name: "HTML", level: 85 },
       { name: "CSS", level: 82 },
     ],
@@ -142,7 +142,7 @@ export const coreConcepts = [
 ];
 
 // ---------------------------------------------------------------------------
-// Industry Training / Experience
+// Industry Training
 // ---------------------------------------------------------------------------
 
 export const experience = [
@@ -152,7 +152,8 @@ export const experience = [
     title:
       "Post Graduate Certificate Programme in Advanced Computing (PGCP-AC)",
 
-    org: "Centre for Development of Advanced Computing (C-DAC ACTS), Pashan, Pune",
+    org:
+      "Centre for Development of Advanced Computing (C-DAC ACTS), Pashan, Pune",
 
     start: "Feb 2026",
 
@@ -189,11 +190,13 @@ export const projects = [
       "Java 17",
       "Spring Boot",
       "Spring Cloud",
-      "Spring Security",
       "Spring Data JPA",
+      "Spring Security",
+      "JWT",
       "React.js",
       "MySQL",
       "Docker",
+      "Maven",
     ],
 
     points: [
@@ -283,7 +286,8 @@ export const education = [
   },
 
   {
-    degree: "Higher Secondary Education (Class X)",
+    degree:
+      "Higher Secondary Education (Class X)",
 
     school:
       "D.A.V. Sr. Sec. Public School, Nigahi (CBSE)",
@@ -303,7 +307,8 @@ export const education = [
 export const achievements = [
   {
     title: "Chess Champion",
-    detail: "Winner of School-level Chess Championship.",
+    detail:
+      "Winner of School-level Chess Championship.",
   },
 
   {
@@ -314,7 +319,8 @@ export const achievements = [
 
   {
     title: "Academic Excellence",
-    detail: "Secured 81.1% in Diploma (RGPV).",
+    detail:
+      "Secured 81.1% in Diploma (RGPV).",
   },
 ];
 
