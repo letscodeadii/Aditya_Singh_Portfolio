@@ -1,17 +1,18 @@
+```javascript
 // ---------------------------------------------------------------------------
 // Portfolio Data
 // Single source of truth for the portfolio.
-// Synced with latest resume (Aditya_Singh.pdf)
+// Synced with latest resume
 // ---------------------------------------------------------------------------
 
 export const profile = {
   name: "Aditya Singh",
   firstName: "Aditya",
 
-  role: "Software Developer | Full-Stack Java Developer",
+  role: "Software Developer | Java Developer",
 
   tagline:
-    "Building scalable full-stack and microservices applications with Java, Spring Boot & React.",
+    "Building full-stack and microservices applications with Java, Spring Boot & React.",
 
   location: "Panchawati, Pashan, Pune, Maharashtra 411008",
 
@@ -19,34 +20,31 @@ export const profile = {
 
   email: "letsmailadii@gmail.com",
 
-  linkedin: "https://linkedin.com/in/adityaxsingh",
-  linkedinLabel: "linkedin.com/in/adityaxsingh",
+  linkedin: "https://linkedin.com/in/letsconnectadii",
+  linkedinLabel: "linkedin.com/in/letsconnectadii",
 
   github: "https://github.com/letscodeadii",
   githubLabel: "github.com/letscodeadii",
 
   summary:
-    "Computer Science Engineer with a Bachelor's degree in Computer Science and Engineering, currently pursuing PGCP-AC at C-DAC Pune. Skilled in Java, Spring Boot, Spring Cloud, React.js, ASP.NET Core, Angular, and modern database technologies, with hands-on experience building full-stack and microservices-based applications — including a Smart College ERP on Spring Boot microservices and CartVerse, a full-stack e-commerce platform on ASP.NET Core and Angular. Strong foundation in Data Structures & Algorithms, OOP, DBMS, Operating Systems, REST APIs, System Design, and Agile Software Development. Passionate about building efficient, scalable solutions and continuously learning new technologies.",
+    "Computer Science Engineer with a B.Tech in Computer Science and Engineering and a Post Graduate Certificate Programme in Advanced Computing (PGCP-AC) from C-DAC Pune. Strong foundation in Core Java, OOP, Data Structures, DBMS, REST APIs, and SQL, with hands-on experience in Spring Boot, Spring Security, Hibernate, React.js, and MySQL. Developed a full-stack microservices-based Smart College ERP using Java and Spring Boot, implementing secure REST APIs, JWT authentication, API Gateway, and role-based access. Seeking an entry-level Software Developer / Java Developer role to build scalable applications and contribute to a collaborative engineering team.",
 
   resumeFile: "/Aditya_Singh_Resume.pdf",
 };
 
 // ---------------------------------------------------------------------------
+// Portfolio Statistics
+// ---------------------------------------------------------------------------
 
 export const stats = [
   {
-    label: "Years Learning",
-    value: 5,
-    suffix: "+",
-  },
-  {
     label: "Projects Built",
-    value: 8,
+    value: 1,
     suffix: "+",
   },
   {
-    label: "Technologies",
-    value: 28,
+    label: "Core Technologies",
+    value: 20,
     suffix: "+",
   },
   {
@@ -54,8 +52,15 @@ export const stats = [
     value: 3,
     suffix: "",
   },
+  {
+    label: "PGCP-AC",
+    value: 1,
+    suffix: "",
+  },
 ];
 
+// ---------------------------------------------------------------------------
+// Technical Skills
 // ---------------------------------------------------------------------------
 
 export const skillGroups = [
@@ -65,13 +70,13 @@ export const skillGroups = [
 
     items: [
       { name: "Java", level: 92 },
-      { name: "C#", level: 80 },
       { name: "JavaScript", level: 86 },
-      { name: "TypeScript", level: 82 },
+      { name: "TypeScript", level: 78 },
       { name: "SQL", level: 88 },
       { name: "C++", level: 82 },
       { name: "C", level: 78 },
-      { name: "HTML/CSS", level: 85 },
+      { name: "HTML", level: 85 },
+      { name: "CSS", level: 82 },
     ],
   },
 
@@ -81,14 +86,12 @@ export const skillGroups = [
 
     items: [
       { name: "Spring Boot", level: 90 },
-      { name: "Spring Cloud", level: 84 },
-      { name: "Spring Security", level: 85 },
       { name: "Spring MVC", level: 84 },
+      { name: "Spring Security", level: 85 },
+      { name: "Spring Cloud", level: 82 },
       { name: "Hibernate", level: 82 },
       { name: "React.js", level: 85 },
-      { name: "Redux", level: 78 },
-      { name: "Angular", level: 82 },
-      { name: "ASP.NET Core", level: 78 },
+      { name: "Redux", level: 76 },
     ],
   },
 
@@ -98,29 +101,29 @@ export const skillGroups = [
 
     items: [
       { name: "MySQL", level: 88 },
-      { name: "PostgreSQL", level: 80 },
       { name: "MongoDB", level: 74 },
-      { name: "SQL Server", level: 78 },
     ],
   },
 
   {
     title: "Tools",
-    comment: "// development tools",
+    comment: "// development & collaboration tools",
 
     items: [
-      { name: "Git & GitHub", level: 90 },
+      { name: "Git", level: 88 },
+      { name: "GitHub", level: 90 },
       { name: "Docker", level: 78 },
       { name: "Postman", level: 86 },
-      { name: "Maven", level: 84 },
       { name: "VS Code", level: 90 },
-      { name: "Eclipse", level: 82 },
-      { name: "Visual Studio", level: 80 },
+      { name: "Eclipse", level: 84 },
+      { name: "Visual Studio", level: 76 },
       { name: "MySQL Workbench", level: 84 },
     ],
   },
 ];
 
+// ---------------------------------------------------------------------------
+// Core Concepts
 // ---------------------------------------------------------------------------
 
 export const coreConcepts = [
@@ -134,11 +137,12 @@ export const coreConcepts = [
   "Microservices",
   "Spring Cloud",
   "System Design",
-  "Docker",
-  "Agile",
   "SDLC",
+  "Agile",
 ];
 
+// ---------------------------------------------------------------------------
+// Industry Training / Experience
 // ---------------------------------------------------------------------------
 
 export const experience = [
@@ -146,24 +150,26 @@ export const experience = [
     id: "cdac",
 
     title:
-      "PGCP-AC — Post Graduate Certificate Programme in Advanced Computing",
+      "Post Graduate Certificate Programme in Advanced Computing (PGCP-AC)",
 
-    org: "Centre for Development of Advanced Computing (C-DAC), Pashan, Pune",
+    org: "Centre for Development of Advanced Computing (C-DAC ACTS), Pashan, Pune",
 
     start: "Feb 2026",
 
-    end: "Present",
+    end: "Aug 2026",
 
     points: [
-      "Pursuing an intensive 24-week full-time Advanced Computing program with comprehensive training in full-stack development.",
-      "Acquiring expertise in Core Java, J2EE, Spring Boot, Hibernate, .NET, React, MySQL, and Data Structures & Algorithms.",
-      "Developing proficiency in OOPs, Database Management Systems, Operating Systems, and Web Technologies.",
-      "Engaging in hands-on projects and lab sessions to build industry-ready software development skills.",
-      "Part of C-DAC's Common Campus Placement Programme (CCPP) for recruitment opportunities.",
+      "Completed an intensive 24-week full-time program focused on industry-oriented software development.",
+      "Developed hands-on expertise in Core Java, J2EE, Spring Boot, Hibernate, .NET, React.js, MySQL, and Data Structures & Algorithms.",
+      "Strengthened knowledge of OOP, DBMS, Operating Systems, REST APIs, Web Technologies, and Software Development Life Cycle.",
+      "Gained practical experience through programming assignments, lab exercises, and full-stack application development.",
+      "Participated in C-DAC's Common Campus Placement Programme (CCPP).",
     ],
   },
 ];
 
+// ---------------------------------------------------------------------------
+// Projects
 // ---------------------------------------------------------------------------
 
 export const projects = [
@@ -177,61 +183,36 @@ export const projects = [
     subtitle: "Microservices-Based College ERP",
 
     description:
-      "Enterprise-grade College ERP built using Java Spring Boot Microservices architecture with Spring Cloud, Eureka Server, API Gateway, React.js, and MySQL.",
+      "Full-stack microservices-based College ERP built using Java, Spring Boot, Spring Cloud, React.js, and MySQL for academic and administrative management.",
 
     stack: [
       "Java 17",
       "Spring Boot",
       "Spring Cloud",
+      "Spring Security",
+      "Spring Data JPA",
       "React.js",
       "MySQL",
       "Docker",
     ],
 
     points: [
-      "Developed a full-stack, microservices-based College ERP application for academic and administrative management.",
-      "Built secure RESTful APIs using Java 17, Spring Boot, Spring Cloud, Spring Security, JWT Authentication, and MySQL.",
-      "Implemented Eureka Server and API Gateway for service discovery and request routing.",
-      "Developed a React.js frontend with role-based authentication, attendance tracking, and marks management.",
-      "Containerized all services using Docker Compose and managed the project build with Maven.",
+      "Developed a full-stack microservices-based College ERP to streamline academic and administrative operations for Admin, Faculty, Student, and Parent users.",
+      "Built secure RESTful APIs using Java 17, Spring Boot, Spring Data JPA, Spring Security, JWT, and MySQL.",
+      "Implemented API Gateway and Eureka Server for request routing and service discovery across microservices.",
+      "Developed a responsive React.js frontend with role-based authentication, dashboards, attendance tracking, and marks management.",
+      "Containerized application services using Docker Compose and managed the multi-module project using Maven.",
     ],
 
     accent: "cyan",
-  },
 
-  {
-    id: "cartverse",
-
-    index: "02",
-
-    title: "CartVerse",
-
-    subtitle: "Enterprise E-Commerce Platform",
-
-    description:
-      "Full-stack enterprise e-commerce application featuring shopping cart, orders, secure authentication, online payments, clean architecture, and high-performance caching.",
-
-    stack: [
-      "Angular",
-      "ASP.NET Core",
-      "Entity Framework Core",
-      "SQL Server",
-      "Stripe",
-      "Azure Redis",
-    ],
-
-    points: [
-      "Developed a full-stack e-commerce application with shopping cart, order management, and secure payments.",
-      "Built secure RESTful APIs using ASP.NET Core Web API, Entity Framework Core, SQL Server, and JWT Authentication.",
-      "Applied Repository, Unit of Work, and Specification design patterns for clean architecture.",
-      "Developed a responsive Angular frontend using RxJS, Reactive Forms, and Bootstrap 5.",
-      "Integrated Stripe Payment Gateway and Azure Redis Cache for improved performance.",
-    ],
-
-    accent: "violet",
+    github:
+      "https://github.com/letscodeadii/Smart_College_ERP",
   },
 ];
 
+// ---------------------------------------------------------------------------
+// Certifications
 // ---------------------------------------------------------------------------
 
 export const certifications = [
@@ -255,25 +236,30 @@ export const certifications = [
 ];
 
 // ---------------------------------------------------------------------------
+// Education
+// ---------------------------------------------------------------------------
 
 export const education = [
   {
     degree:
       "Post Graduate Certificate Programme in Advanced Computing (PGCP-AC)",
 
-    school: "Centre for Development of Advanced Computing (C-DAC ACTS), Pune",
+    school:
+      "Centre for Development of Advanced Computing (C-DAC ACTS), Pune",
 
     start: "Feb 2026",
 
-    end: "Present",
+    end: "Aug 2026",
 
-    score: "Pursuing",
+    score: "74%",
   },
 
   {
-    degree: "Bachelor of Technology (B.Tech) — Computer Science & Engineering",
+    degree:
+      "Bachelor of Technology (B.Tech) — Computer Science & Engineering",
 
-    school: "Technocrats Institute of Technology, Bhopal (RGPV)",
+    school:
+      "Technocrats Institute of Technology, Bhopal (RGPV)",
 
     start: "2022",
 
@@ -283,7 +269,8 @@ export const education = [
   },
 
   {
-    degree: "Diploma — Computer Science & Engineering",
+    degree:
+      "Diploma — Computer Science & Engineering",
 
     school:
       "Sardar Vallabhbhai Patel Polytechnic College, Bhopal (RGPV)",
@@ -298,7 +285,8 @@ export const education = [
   {
     degree: "Higher Secondary Education (Class X)",
 
-    school: "D.A.V. Sr. Sec. Public School, Nigahi (CBSE)",
+    school:
+      "D.A.V. Sr. Sec. Public School, Nigahi (CBSE)",
 
     start: "2017",
 
@@ -309,16 +297,19 @@ export const education = [
 ];
 
 // ---------------------------------------------------------------------------
+// Achievements
+// ---------------------------------------------------------------------------
 
 export const achievements = [
   {
     title: "Chess Champion",
-    detail: "Winner of the School-level Chess Championship.",
+    detail: "Winner of School-level Chess Championship.",
   },
 
   {
     title: "Top Performer",
-    detail: "Selected among top Diploma students for specialized workshops.",
+    detail:
+      "Selected among top-performing diploma students for technical workshops.",
   },
 
   {
@@ -328,23 +319,30 @@ export const achievements = [
 ];
 
 // ---------------------------------------------------------------------------
+// Portfolio Highlights
+// ---------------------------------------------------------------------------
 
 export const highlights = [
+  "Core Java",
   "Java Backend Development",
   "Spring Boot",
+  "Spring Security",
   "Spring Cloud",
   "Microservices",
   "REST API Development",
   "JWT Authentication",
   "React.js",
-  "Angular",
-  "ASP.NET Core",
+  "Hibernate",
+  "MySQL",
   "Docker",
   "Git & GitHub",
-  "SQL & NoSQL Databases",
-  "System Design",
+  "Data Structures & Algorithms",
+  "OOP",
+  "DBMS",
 ];
 
+// ---------------------------------------------------------------------------
+// Navigation
 // ---------------------------------------------------------------------------
 
 export const navLinks = [
@@ -357,6 +355,8 @@ export const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+// ---------------------------------------------------------------------------
+// Social Links
 // ---------------------------------------------------------------------------
 
 export const socials = [
@@ -384,3 +384,4 @@ export const socials = [
     icon: "phone",
   },
 ];
+```
