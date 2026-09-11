@@ -74,9 +74,9 @@ export const skillGroups = [
       { name: "TypeScript", level: 78 },
       { name: "C++", level: 82 },
       { name: "C", level: 78 },
-      { name: "SQL", level: 88 },
       { name: "HTML", level: 85 },
       { name: "CSS", level: 82 },
+      { name: "SQL", level: 88 },
     ],
   },
 
@@ -90,7 +90,7 @@ export const skillGroups = [
       { name: "Spring Security", level: 85 },
       { name: "Spring Cloud", level: 82 },
       { name: "Hibernate", level: 82 },
-      { name: "React.js", level: 85 },
+      { name: "ReactJS", level: 85 },
       { name: "Redux", level: 76 },
     ],
   },
@@ -131,14 +131,11 @@ export const coreConcepts = [
   "Object Oriented Programming",
   "DBMS",
   "Operating Systems",
-  "REST APIs",
-  "Spring Security",
-  "JWT Authentication",
-  "Microservices",
-  "Spring Cloud",
-  "System Design",
   "SDLC",
   "Agile",
+  "REST APIs",
+  "Microservices",
+  "System Design",
 ];
 
 // ---------------------------------------------------------------------------
@@ -184,7 +181,7 @@ export const projects = [
     subtitle: "Microservices-Based College ERP",
 
     description:
-      "Full-stack microservices-based College ERP built using Java, Spring Boot, Spring Cloud, React.js, and MySQL for academic and administrative management.",
+      "Full-stack microservices-based College ERP developed using Java 17, Spring Boot, Spring Cloud, React.js, and MySQL for academic and administrative management.",
 
     stack: [
       "Java 17",
@@ -221,19 +218,19 @@ export const projects = [
 export const certifications = [
   {
     title: "Java Programming",
-    issuer: "Udemy",
+    issuer: "Udemy Certified",
     note: "Beginner to Master",
   },
 
   {
     title: "C++ Programming",
-    issuer: "Udemy",
+    issuer: "Udemy Certified",
     note: "Beginner to Advanced: Deep Dive in C++",
   },
 
   {
     title: "Full Stack Java Development",
-    issuer: "Udemy",
+    issuer: "Udemy Certified",
     note: "Java • JSP • Spring Boot • JavaScript • React",
   },
 ];
@@ -259,7 +256,7 @@ export const education = [
 
   {
     degree:
-      "Bachelor of Technology (B.Tech) — Computer Science & Engineering",
+      "B.Tech - Computer Science and Engineering",
 
     school:
       "Technocrats Institute of Technology, Bhopal (RGPV)",
@@ -273,7 +270,7 @@ export const education = [
 
   {
     degree:
-      "Diploma — Computer Science & Engineering",
+      "Diploma - Computer Science and Engineering",
 
     school:
       "Sardar Vallabhbhai Patel Polytechnic College, Bhopal (RGPV)",
